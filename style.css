@@ -1,0 +1,78 @@
+   
+body { 
+    background-color: darkslategrey;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(88, 168, 142);
+    color:rgb(66, 90, 175)
+}
+h2 {
+    color: rgb(66, 90, 175);
+}
+img {
+    border: blue;
+}
+.header {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    background-color: rgb(88, 168, 142);
+    transition: all 1s;
+    
+} 
+.header:hover{
+    animation: color-change 1s forwards;
+}
+@keyframes color-change{
+    from{
+        color: red;
+    }
+    to{
+        color: skyblue;
+    }
+}
+
+.main {
+    text-align: center;
+}
+
+.footer {
+
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+.tooltiptext {
+    top: -5px;
+    left: 105%;
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(102, 156, 118);
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+}
+
+table, th, td {
+    border:2px solid;
+    text-align: center;
+    background-color: rgb(88, 168, 142);
+}            
+#early-video {
+    background-color:aquamarine ;
+}
+#golden-age {
+    background-color:rgb(88, 168, 142) ;
+}
+#first-comp {
+    background-color:rgb(71, 133, 112) ;
+}
+#rise {
+    background-color:rgb(64, 114, 97) ;
+}
+.rdr2 {
+    background-color:rgb(44, 90, 75) ;
+}
