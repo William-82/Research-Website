@@ -39,7 +39,7 @@ img {
 }
 
 .footer {
-
+    color: #000000;
 }
 .tooltip:hover .tooltiptext{
     visibility: visible;
