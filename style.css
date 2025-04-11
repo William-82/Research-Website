@@ -1,6 +1,6 @@
    
-body { 
-    background-color: darkslategrey;
+.container-fluid {
+    background-color: rgb(88, 168, 142);
 }
 h1 {
     text-align: center;
@@ -36,6 +36,7 @@ img {
 
 .main {
     text-align: center;
+    background-color: rgb(24, 107, 75);
 }
 
 .footer {
